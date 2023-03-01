@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+.DS_Store
+config.xml

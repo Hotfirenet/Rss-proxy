@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  php-apache-environment:
+    container_name: rss-proxy
+    build: .
+    volumes:
+      - ./app:/app
+    restart: always
